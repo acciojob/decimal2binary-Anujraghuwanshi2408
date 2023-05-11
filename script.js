@@ -9,6 +9,7 @@ function number(n){
 		s += n%2;
 		n = parseInt(n/2);
 	}
-	console.log(s);
+	return s;
 }
-module.exports = threeSum;
+	console.log(function(n));
+// module.exports = threeSum;

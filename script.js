@@ -9,7 +9,13 @@ function number(n){
 		s += n%2;
 		n = parseInt(n/2);
 	}
-	return s;
+// 	return s;
 }
-	console.log(number(n));
+  number(n);
+  
+  let ans = ""
+	for(let i=s.length-1; i>=0; i--){
+	  ans += s[i];
+	}
+console.log(ans);
 // module.exports = threeSum;

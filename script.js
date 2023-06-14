@@ -11,5 +11,5 @@ function number(n){
 	}
 	return s;
 }
-	console.log(function(n));
+	console.log(number(n));
 // module.exports = threeSum;
